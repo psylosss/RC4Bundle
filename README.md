@@ -1,4 +1,4 @@
-# RC4 Budnle
+# RC4 Bundle
 
 [![Build Status](https://travis-ci.org/wdalmut/RC4Bundle.svg?branch=master)](https://travis-ci.org/wdalmut/RC4Bundle)
 
