@@ -15,3 +15,6 @@ env:
 before_script:
   - composer selfupdate
   - composer require symfony/framework-bundle:${SYMFONY_VERSION}
+
+script:
+  - vendor/bin/phpunit --bootstrap Tests/bootstrap.php Tests/
