@@ -1,5 +1,5 @@
 <?php
-namespace Corley\VersionBundle;
+namespace Corley\RC4Bundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
