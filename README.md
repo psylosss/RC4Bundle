@@ -14,7 +14,7 @@ rc4_key: "this-is-my-super-secret-key"
 ## Get RC4 as service
 
 ```php
-$obf = $this->container->get("corley_rc4.impl");
+$obf = $this->container->get("rc4");
 
 //Use it
 echo $obf->rc4("this-is-my-string");

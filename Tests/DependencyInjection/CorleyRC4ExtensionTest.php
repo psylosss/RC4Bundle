@@ -43,4 +43,12 @@ class CorleyRC4ExtensionTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals("testkey", $reflectionProperty->getValue($rc4));
     }
+
+    public function testGetRC4ImplUsingAlias()
+    {
+        $extension = new CorleyRC4Extension();
+        $extension->load(array(array()), $this->container);
+
+        $this->assertInstanceOf('Corley\RC4\RC4', $this->container->get('rc4'));
+    }
 }

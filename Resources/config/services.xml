@@ -5,6 +5,8 @@
         <service id="corley_rc4.impl" class="Corley\RC4\RC4">
             <argument>%rc4_key%</argument>
         </service>
+
+        <service id="rc4" alias="corley_rc4.impl" />
     </services>
 </container>
 
